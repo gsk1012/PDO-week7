@@ -21,11 +21,7 @@ $stmt->execute($params);
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <div class="container-bg">
-            <h1>Product met ID <?php echo $id?> verwijderd</h1>
-            <a href="index.php">Terug naar overzicht</a>
-        </div>
-    </main>
+    <h1>Product met ID <?php echo $id?> verwijderd</h1>
+    <a href="index.php">Terug naar overzicht</a>
 </body>
 </html>
